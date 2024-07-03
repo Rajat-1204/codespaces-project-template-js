@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/port.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "MNNIT KI DUKAN",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "MNNIT KI DUKAN is a website that provides college students with the opportunity to sell and buy old stuff.",
+    url: "https://mnnit-ki-dukan.onrender.com",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Fil Flavours",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Film Flavours is a  dynamic and user-friendly movie review website designed to cater to cinephiles and casual moviegoers alike, in collaboration with a teammate.",
+    url: "https://filmflavours.netlify.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Weather App",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "The Weather App is an interactive application designed to provide users with real-time weather information for any city they input.",
+    url: "https://weather-app-xi-olive.vercel.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Doctor Appointment",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "The Doctor Appointment Web App is an efficient platform designed to streamline the process of booking medical appointments.",
+    url: "https://doctor-appointment-8a18.onrender.com",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "120%", width: "120%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
